@@ -1,4 +1,4 @@
-# Global Styles - Style Schema
+# Style Schema
 
 > WIPWIPWIP
 

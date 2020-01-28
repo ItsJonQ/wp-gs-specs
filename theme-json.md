@@ -1,4 +1,4 @@
-# Global Styles - theme.json
+# Theme.json
 
 A `theme.json` file is a manifest file for a WordPress theme. This file contains customizations that override the global style values from Core.
 
