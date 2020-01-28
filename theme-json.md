@@ -8,11 +8,11 @@ It is located in the root directory of a WordPress theme, example:
 
 ```
 /wp-content/
-	\- my-theme/
-		|- functions.json
-		|- ...
-		|- style.css
-		\- theme.json
+	└── my-theme/
+		├── functions.json
+		├── ...
+		├── style.css
+		└── theme.json
 ```
 
 ## Global Styles "Opt-in"
