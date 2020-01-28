@@ -6,13 +6,13 @@ A `theme.json` file is a manifest file for a WordPress theme. This file contains
 
 It is located in the root directory of a WordPress theme, example:
 
-```
+```sh
 /wp-content/
-	└── my-theme/
-		├── functions.json
-		├── ...
-		├── style.css
-		└── theme.json
+  └── my-theme/
+    ├── functions.json
+    ├── ...
+    ├── style.css
+    └── theme.json
 ```
 
 ## Global Styles "Opt-in"
@@ -27,25 +27,25 @@ An example of a theme.json may look like this:
 
 ```json
 {
-	"global": {
-		"color": {
-			"text": "black"
-		}
-	},
-	"blocks": {
-		"core/paragraph": {
-			"color": {
-				"text": "pink"
-			}
-		}
-	}
+  "global": {
+    "color": {
+      "text": "black"
+    }
+  },
+  "blocks": {
+    "core/paragraph": {
+      "color": {
+        "text": "pink"
+      }
+    }
+  }
 }
 ```
 
 In the example (above), there are 2 keys are the root level:
 
--   `global`
--   `blocks`
+- `global`
+- `blocks`
 
 ### `global`
 
@@ -65,22 +65,22 @@ This structure allows for a `theme.json` to provide values for 3rd party blocks 
 
 ```json
 {
-	"global": {
-		"color": {
-			"text": "black"
-		}
-	},
-	"blocks": {
-		"core/paragraph": {
-			"color": {
-				"text": "pink"
-			}
-		},
-		"my-custom-block-library/maps": {
-			"color": {
-				"title": "blue"
-			}
-		}
-	}
+  "global": {
+    "color": {
+      "text": "black"
+    }
+  },
+  "blocks": {
+    "core/paragraph": {
+      "color": {
+        "text": "pink"
+      }
+    },
+    "my-custom-block-library/maps": {
+      "color": {
+        "title": "blue"
+      }
+    }
+  }
 }
 ```
