@@ -9,10 +9,10 @@ It is located in the root directory of a WordPress theme, example:
 ```sh
 /wp-content/
   └── my-theme/
-    ├── functions.json
-    ├── ...
-    ├── style.css
-    └── theme.json
+      ├── functions.json
+      ├── ...
+      ├── style.css
+      └── theme.json
 ```
 
 ## Global Styles "Opt-in"
@@ -22,6 +22,8 @@ For initial development, themes x Global Styles will rely on an opt-in mechanic.
 ## Schema
 
 The JSON Object shape in the `theme.json` represents the data structure the Global Style system uses internally. Values within a `theme.json` override core values by extension, not direct mutation.
+
+### Shape
 
 An example of a theme.json may look like this:
 
