@@ -86,3 +86,9 @@ This structure allows for a `theme.json` to provide values for 3rd party blocks 
   }
 }
 ```
+
+---
+
+## See Also
+
+- [Style Schema](./style-schema.md)
